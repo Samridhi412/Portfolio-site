@@ -49,11 +49,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      The first time four years ago I heard the concept of website development, I fell in love with it. To build something many people will use and spend time on daily is my primary motivation for Software Development.
+      Fast-forward to today, and I’ve had the privilege of working at a start-up, a huge corporation. These days, my main focus is working on making efficient and scalable products in Byjus.
+      I'm a skilled software developer with experience in C++, Python, Ruby, Golang, Sql, Postgres, MongoDB and
+      JavaScript, and expertise in frameworks like Django, Rails, React. I'm a quick learner and collaborate closely with clients to
+      create efficient, scalable, and user-friendly solutions that solve
+      real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -1,28 +1,40 @@
 import {
-    mobile,
+    api,
+    os,
+    dbms,
+    ruby,
+    fiver,
+    snowflake,
+    c,
+    topsis,
+    success,
+    pm,
+    sharex,
+    travel,
+    golang,
+    sql,
+    vid,
+    postgres,
+    django,
+    python,
+    thapar,
+    byjus,
     backend,
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
     nodejs,
     mongodb,
     git,
+    github,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
+    niep,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -33,6 +45,14 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "education",
+      title: "Education",
+    },
+    {
+      id: "achievements",
+      title: "Achievements",
     },
     {
       id: "contact",
@@ -46,67 +66,75 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Api Developer",
+      icon: api,
+    },
+    {
+      title: "Database Management",
+      icon: dbms,
+    },
+    {
+      title: "Operating Systems",
+      icon: os,
+    },
+    {
+      title: "Project Management",
+      icon: pm,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Ruby",
+      icon: ruby,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Sql",
+      icon: sql,
+    },
+    {
+      name: "Postgres",
+      icon: postgres,
+    },
+    {
+      name: "Snowflake",
+      icon: snowflake,
+    },
+    {
+      name: "Django",
+      icon: django,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "C++",
+      icon: c,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Golang",
+      icon: golang,
     },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
+      name: "github",
+      icon: github,
     },
     {
       name: "docker",
@@ -116,151 +144,183 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Member Of Technical Staff",
+      company_name: "Byjus-The Learning App",
+      icon: byjus,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
+      source_code_link: "https://d857x1yne8b8d.cloudfront.net/production/monthly_progress_reports_v2/05-2023/98952346_1001556644.pdf",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led the development of a feature that involved pulling data from different sources.",
+        "Maintaining data pipelines using kafka, created and schedules cron jobs for automated data extraction.",
+        "Designing database queries for efficient data retrieval.",
+        "Collaborated with cross-functional teams to understand requirements, define data formats.",
+        "Leverage AWS services to store data, thereby ensuring scalable and reliable data processing, ingestion and high availability.",
+        "Implemented performance optimization strategies to reduce load time by optimizing API calls and eliminating heavy intermediate API calls.",
+        "Designed and developed scalable APIs reducing unnecessary data transfer and improve response time",
+        "Conducted load testing to identify performance bottlenecks and fine-tune existing APIs",
+        "Utilized tools like Postman for API testing, ensuring quality and usability of APIs.",
+        "Impact: Increased RPS(Request Per Second) by 40%, decreased CPU utilisation by 40% and reduced latency by 30% for the get-commission API calls Overall made the system extensible and maintainable",
+        "Tools & Technologies: Golang, Ruby On Rails(ROR), Postgresql, MySql, AWS, Docker, Dbeaver, Postman, Snowflake",
+      ],
+    },
+    {
+      title: "Student Software Developer",
+      company_name: "Thapar Institute Of Engineering & Technology",
+      icon: thapar,
+      iconBg: "#383E56",
+      date: "June 2022 - Dec 2022",
+      source_code_link: "https://github.com/Samridhi412/Travel-partner",
+      points: [
+        "Developed and deployed a production-ready application providing convenient ways to discover nearest restaurants and dining.",
+        "Using goggle maps API, users can Fetch different hotels, restaurants and attractions based on location from specialized Rapid APIs, filter as per rating provided, hover over the place and you get access to the contact-details, reviews, awards, website etc. of the desired restaurant, hotels and attractions.",
+        "Real-Time Updates: Update displayed information to reflect real-time changes in availability, operating hours or special promotions.",
+        "Impact: Time Efficiency, Immediate results, Increased decision-making speed, Seamless experience, Enhanced discovery.",
+        "Tools & Technologies: Reactjs, Google Maps Api, Netlify"
       ],
     },
   ];
   
-  const testimonials = [
+  const education = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      title: "Thapar Institute of Engineering & Technology",
+      company_name: "CGPA: 9.06/10.0",
+      icon: thapar,
+      iconBg: "#383E56",
+      date: "May 2019 - Jun 2023",
+      points: [
+        "Courses: Data-Structures and Algorithms, Operating Systems, Database Management System, Object-oriented Programming",
+      ],
     },
+  ];
+
+
+  const achievements = [
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      icon: success,
+      points:[
+        "Solved around 1000+ coding problems across various platforms and from different resources.",
+        "An All-India rank-740 in Google I/O for women 2022",
+        "Qualified for 2nd round of IONathon 1.0",
+        "Best Girls team in Hackoverflow4.0",
+        "Awarded -2 times merit scholarships of INR 100K+ from Thapar Institute of Engineering and Technology",
+        "Ranked in Top 5 for the Intuit Coding Assessment among 1000+ candidates",
+      ],
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Night Entry Portal System",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Convenient and easy-to-use application for hostellers to mark their night attendance, by the use of unique QR codes. It reduces the manual work and provide quick access for data retrieval and large amount of data storing",
       tags: [
         {
-          name: "react",
+          name: "html&css",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Django",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "MySql",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: niep,
+      source_code_link: "https://github.com/Samridhi412/Niep",
     },
     {
-      name: "Job IT",
+      name: "CheapFinder",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Designed a web-scrapper bot that accepts the desired place, check-in & check-out dates and number of people going and provides the cheapest hotel deals. It provides hotel-names, price and rating based on provided information.",
       tags: [
         {
-          name: "react",
+          name: "Selenium",
           color: "blue-text-gradient",
         },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: travel,
+      source_code_link: "https://github.com/Samridhi412/Thrifty-Travels/tree/master",
     },
     {
-      name: "Trip Guide",
+      name: "GigSavvy",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed and deployed a marketplace for digital services offers both buyers and sellers a digitally streamlined transactional platform.The service offered is called ‘Gig’.Offers, order placements, reviews, one-to-one messaging with seller or previous buyers, rating, uploading new services",
       tags: [
         {
-          name: "nextjs",
+          name: "MERN",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Stripe",
           color: "green-text-gradient",
         },
+      ],
+      image: fiver,
+      source_code_link: "https://github.com/Samridhi412/GigSavvy/tree/master",
+    },
+    {
+      name: "TopsisMaster",
+      description:
+      "Developed and published a topsis(Technique For Order Preference) calculator package. Users can provide an input csv and details abour weights and impacts, and an email will be sent to users with output csv having topsis score",
+      tags: [
         {
-          name: "css",
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: topsis,
+      source_code_link: "https://github.com/Samridhi412/python_topsis_Samridhi_101916086",
+    },
+    {
+      name: "ShareX",
+      description:
+      "Developed and deployed a file-sharing MERN application. Easy to share and download, where users can upload file in any format and get a shareable link, post clicking on the link any user with the link can download the file",
+      tags: [
+        {
+          name: "MERN",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: sharex,
+      source_code_link: "https://github.com/Samridhi412/ShareBox",
+    },
+    {
+      name: "MP3ify",
+      description:
+      "Microservice architecture that converts video files to MP3 files and send the MP3 over email. Users upload their video files and send request to API Gateway, messages are stored in mongoDB and reside in queue. Converter consumes and converts messages, notification service consumes and sends email.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Kubernetes",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MySql",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "RabbitMQ",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: vid,
+      source_code_link: "",
     },
   ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+
+  export { services, technologies, experiences, education, achievements, projects };
   

@@ -20,9 +20,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-      // template-id template_cn20qpo
-  // service-id service_v9bz0xo
-  // public-key tGbGHtD5vkMV3FHsG
     emailjs.send(
       'service_v9bz0xo',
       'template_cn20qpo',
@@ -113,4 +110,4 @@ const Contact = () => {
   )
 }
 
-export default SectionWrapper(Contact, "");
+export default SectionWrapper(Contact, "contact");

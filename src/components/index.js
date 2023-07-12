@@ -7,6 +7,8 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import Education from './Education';
+import Achievements from './Achievements'
 
 export {
   Hero,
@@ -14,9 +16,11 @@ export {
   About,
   Tech,
   Experience,
+  Education,
   Works,
   Feedbacks,
   Contact,
+  Achievements,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
