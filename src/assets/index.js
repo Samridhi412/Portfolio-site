@@ -15,6 +15,7 @@ import byjus from "./byjus.png";
 import thapar from "./thapar.jpg";
 import success from "./success.jpg";
 import vid from "./vid.jpg";
+import elect from "./elect.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -41,6 +42,7 @@ import travel from "./travel.png"
 import sharex from "./file-share.png"
 import topsis from "./topsis.jpg"
 export {
+  elect,
   topsis,
   sharex,
   success,

@@ -1,4 +1,5 @@
 import {
+    elect,
     api,
     os,
     dbms,
@@ -286,6 +287,23 @@ import {
       ],
       image: sharex,
       source_code_link: "https://github.com/Samridhi412/ShareBox",
+    },
+    {
+      name: "ElectriCare",
+      description:
+      "Electricity billing management system with customer and admin interaction over generating, paying, calculating bills, deposit details, update/view information",
+      tags: [
+        {
+          name: "Java(Swing, Awt)",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: elect,
+      source_code_link: "https://github.com/Samridhi412/ElectriCare",
     },
     {
       name: "MP3ify",
