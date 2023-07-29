@@ -72,12 +72,15 @@ const About = () => {
         )}
         <br />
         <br />
-        <button
-          className="text-primary underline cursor-pointer"
+        <motion.button
+          variants={fadeIn("up", "spring", 0.1, 0.5)}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          className="text-primary underline bg-white py-2 px-4 rounded cursor-pointer"
           onClick={toggleTextVisibility}
         >
           {showFullText ? "Read Less" : "Read More"}
-        </button>
+        </motion.button>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
