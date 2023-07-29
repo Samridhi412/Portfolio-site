@@ -63,28 +63,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Data Structures and Algorithms",
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "Software Engineering Projects",
       icon: backend,
     },
     {
-      title: "Api Developer",
-      icon: api,
-    },
-    {
-      title: "Database Management",
+      title: "Database Design and Management",
       icon: dbms,
     },
     {
-      title: "Operating Systems",
+      title: "Operating Systems and System Programming",
       icon: os,
-    },
-    {
-      title: "Project Management",
-      icon: pm,
     },
   ];
   
@@ -152,17 +144,17 @@ import {
       date: "Jan 2023 - Present",
       source_code_link: "https://d857x1yne8b8d.cloudfront.net/production/monthly_progress_reports_v2/05-2023/98952346_1001556644.pdf",
       points: [
-        "Led the development of a feature that involved pulling data from different sources.",
-        "Maintaining data pipelines using kafka, created and schedules cron jobs for automated data extraction.",
-        "Designing database queries for efficient data retrieval.",
-        "Collaborated with cross-functional teams to understand requirements, define data formats.",
-        "Leverage AWS services to store data, thereby ensuring scalable and reliable data processing, ingestion and high availability.",
-        "Implemented performance optimization strategies to reduce load time by optimizing API calls and eliminating heavy intermediate API calls.",
-        "Designed and developed scalable APIs reducing unnecessary data transfer and improve response time",
-        "Conducted load testing to identify performance bottlenecks and fine-tune existing APIs",
-        "Utilized tools like Postman for API testing, ensuring quality and usability of APIs.",
-        "Impact: Increased RPS(Request Per Second) by 40%, decreased CPU utilisation by 40% and reduced latency by 30% for the get-commission API calls Overall made the system extensible and maintainable",
-        "Tools & Technologies: Golang, Ruby On Rails(ROR), Postgresql, MySql, AWS, Docker, Dbeaver, Postman, Snowflake",
+        "Led the development of a feature that involved data integration from multiple sources.",
+        "Implemented and maintained data pipelines using Kafka and scheduled cron jobs for automated data extraction.",
+        "Designed and optimized efficient database queries for seamless data retrieval.",
+        "Collaborated with cross-functional teams to gather requirements and define data formats.",
+        "Utilized AWS services for scalable and reliable data storage, processing, and ingestion.",
+        "Optimized API calls, eliminating heavy intermediaries, and reducing load time.",
+        "Designed and developed scalable APIs, resulting in improved response time and reduced data transfer.",
+        "Conducted load testing to identify and address performance bottlenecks in existing APIs.",
+        "Utilized Postman for API testing, ensuring high-quality and usable APIs.",
+        "Achieved a 40% increase in RPS (Requests Per Second), a 40% decrease in CPU utilization, and a 30% reduction in latency for the get-commission API calls, making the system more extensible and maintainable.",
+        "Tools & Technologies: Golang, Ruby On Rails (ROR), Postgresql, MySQL, AWS, Docker, DBeaver, Postman, Snowflake.",      
       ],
     },
     {
@@ -173,11 +165,12 @@ import {
       date: "June 2022 - Dec 2022",
       source_code_link: "https://github.com/Samridhi412/Travel-partner",
       points: [
-        "Developed and deployed a production-ready application providing convenient ways to discover nearest restaurants and dining.",
-        "Using goggle maps API, users can Fetch different hotels, restaurants and attractions based on location from specialized Rapid APIs, filter as per rating provided, hover over the place and you get access to the contact-details, reviews, awards, website etc. of the desired restaurant, hotels and attractions.",
-        "Real-Time Updates: Update displayed information to reflect real-time changes in availability, operating hours or special promotions.",
-        "Impact: Time Efficiency, Immediate results, Increased decision-making speed, Seamless experience, Enhanced discovery.",
-        "Tools & Technologies: Reactjs, Google Maps Api, Netlify"
+        "Developed and deployed a production-ready application enabling users to discover nearby restaurants and attractions conveniently.",
+        "Utilized Google Maps API and specialized Rapid APIs to fetch and display hotels, restaurants, and attractions based on the user's location.",
+        "Implemented filtering options based on user preferences, such as ratings, providing access to contact details, reviews, awards, and websites for desired places.",
+        "Incorporated real-time updates to reflect changes in availability, operating hours, and special promotions for a seamless user experience.",
+        "Impact: Increased efficiency in decision-making with immediate results, enhanced discovery of nearby places, and a seamless user experience.",
+        "Tools & Technologies: React.js, Google Maps API, Netlify.",
       ],
     },
   ];
@@ -200,12 +193,12 @@ import {
     {
       icon: success,
       points:[
-        "Solved around 1000+ coding problems across various platforms and from different resources.",
-        "An All-India rank-740 in Google I/O for women 2022",
-        "Qualified for 2nd round of IONathon 1.0",
-        "Best Girls team in Hackoverflow4.0",
-        "Awarded -2 times merit scholarships of INR 100K+ from Thapar Institute of Engineering and Technology",
-        "Ranked in Top 5 for the Intuit Coding Assessment among 1000+ candidates",
+        "Solved 1000+ coding problems across diverse platforms and resources, showcasing a strong problem-solving ability and dedication to continuous learning in computer science.",
+        "Secured an impressive All-India rank of 740 in Google I/O for women in 2022, demonstrating excellence in a highly competitive coding event.",
+        "Qualified for the second round of IONathon 1.0, highlighting exceptional skills and competence in a prestigious coding challenge.",
+        "Part of the Best Girls team in Hackoverflow4.0, recognized for outstanding teamwork and performance in a hackathon event.",
+        "Received merit scholarships totaling INR 100K+ on two occasions from Thapar Institute of Engineering and Technology, acknowledging academic excellence and achievements.",
+        "Achieved a top 5 rank in the Intuit Coding Assessment among 1000+ candidates, validating coding proficiency and problem-solving capabilities.",
       ],
     },
   ];
@@ -214,7 +207,7 @@ import {
     {
       name: "Night Entry Portal System",
       description:
-      "Convenient and easy-to-use application for hostellers to mark their night attendance, by the use of unique QR codes. It reduces the manual work and provide quick access for data retrieval and large amount of data storing",
+      "Developed an efficient and user-friendly application for hostellers to mark their night attendance using unique QR codes. The application streamlined attendance management, reducing manual effort and ensuring quick data retrieval and storage.",
       tags: [
         {
           name: "html&css",
@@ -235,7 +228,7 @@ import {
     {
       name: "CheapFinder",
       description:
-      "Designed a web-scrapper bot that accepts the desired place, check-in & check-out dates and number of people going and provides the cheapest hotel deals. It provides hotel-names, price and rating based on provided information.",
+      "Developed a web-scraper bot that efficiently fetches and compares hotel deals based on user-inputted parameters, including the desired location, check-in & check-out dates, and the number of guests. The bot provides users with a list of cheapest hotel options, along with their names, prices, and ratings, facilitating informed decision-making for travelers.",
       tags: [
         {
           name: "Selenium",
@@ -248,7 +241,7 @@ import {
     {
       name: "GigSavvy",
       description:
-      "Developed and deployed a marketplace for digital services offers both buyers and sellers a digitally streamlined transactional platform.The service offered is called ‘Gig’.Offers, order placements, reviews, one-to-one messaging with seller or previous buyers, rating, uploading new services",
+      "Development of a digital services marketplace called 'Gig,' providing a seamless transactional platform for both buyers and sellers. The platform facilitates offers, order placements, reviews, one-to-one messaging with sellers or previous buyers, ratings, and easy uploading of new services.",
       tags: [
         {
           name: "MERN",
@@ -265,7 +258,7 @@ import {
     {
       name: "TopsisMaster",
       description:
-      "Developed and published a topsis(Technique For Order Preference) calculator package. Users can provide an input csv and details abour weights and impacts, and an email will be sent to users with output csv having topsis score",
+      "Created and published a custom Topsis (Technique For Order Preference by Similarity to Ideal Solution) calculator package. The package enables users to input a CSV file along with weight and impact details. Upon processing, the package automatically sends users an email containing the output CSV with Topsis scores.",
       tags: [
         {
           name: "Python",
@@ -278,7 +271,7 @@ import {
     {
       name: "ShareX",
       description:
-      "Developed and deployed a file-sharing MERN application. Easy to share and download, where users can upload file in any format and get a shareable link, post clicking on the link any user with the link can download the file",
+      "Led the development and deployment of a MERN-based file-sharing application. This user-friendly platform allows seamless file uploads in various formats, generating shareable links for easy sharing and downloading. Any user with the link gains instant access to download the shared files.",
       tags: [
         {
           name: "MERN",
@@ -291,7 +284,7 @@ import {
     {
       name: "ElectriCare",
       description:
-      "Electricity billing management system with customer and admin interaction over generating, paying, calculating bills, deposit details, update/view information",
+      "Developed an efficient Electricity Billing Management System that facilitates seamless interactions between customers and admins. The system encompasses features such as bill generation, payment processing, bill calculations, deposit details, and easy access to update/view information for both customers and administrators.",
       tags: [
         {
           name: "Java(Swing, Awt)",
@@ -306,9 +299,9 @@ import {
       source_code_link: "https://github.com/Samridhi412/ElectriCare",
     },
     {
-      name: "MP3ify",
+      name: "MediaTranscribe",
       description:
-      "Microservice architecture that converts video files to MP3 files and send the MP3 over email. Users upload their video files and send request to API Gateway, messages are stored in mongoDB and reside in queue. Converter consumes and converts messages, notification service consumes and sends email.",
+      "MediaTranscribe is an advanced microservice designed to seamlessly convert video files into high-quality audio formats. Utilizing cutting-edge technology, this service delivers precise and accurate audio extraction from a wide range of video sources.",
       tags: [
         {
           name: "Python",
@@ -336,7 +329,7 @@ import {
         },
       ],
       image: vid,
-      source_code_link: "",
+      source_code_link: "https://github.com/Samridhi412/MediaTranscribe/tree/master",
     },
   ];
 
