@@ -41,7 +41,9 @@ import golang from "./go.png"
 import travel from "./travel.png"
 import sharex from "./file-share.png"
 import topsis from "./topsis.jpg"
+import amazon from "./amazon.png"
 export {
+  amazon,
   elect,
   topsis,
   sharex,

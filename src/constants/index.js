@@ -20,6 +20,7 @@ import {
     python,
     thapar,
     byjus,
+    amazon,
     backend,
     creator,
     web,
@@ -137,11 +138,30 @@ import {
   
   const experiences = [
     {
+      title: "Software Developer",
+      company_name: "Amazon",
+      icon: amazon,
+      iconBg: "#383E56",
+      date: "Oct 2023 - Present",
+      points: [
+        "Spearheaded the stabilization initiative for a mission-critical automation tool at Amazon, optimizing the development and launch processes for new arc launches.",
+        "Engineered and implemented automation solutions resulting in a substantial reduction of time and effort, eliminating manual processes and enhancing overall operational efficiency.",
+        "Proactively identified and addressed user challenges from previous tool implementations, consistently delivering resolutions to ensure a seamless and trouble-free user experience.",
+        "Formulated strategic initiatives to augment the tool's reliability, actively contributing to the evolution of user-centric strategies for improved functionality.",
+        "Implemented enhancements to increase the overall usability and accessibility of the automation tool, focusing on a user-friendly interface and intuitive functionality.",
+        "Demonstrated comprehensive oversight by managing the automation tool's entire lifecycle, from conception to execution, ensuring robust pipelines and addressing concerns for sustained functionality.",
+        "Exhibited a proactive approach in identifying and mitigating concerns related to the automation tool, minimizing downtime and maintaining seamless operations.",
+        "Championed a culture of continuous improvement, remaining abreast of industry best practices and actively contributing to the refinement of operational processes within the team.",
+        "Reduction of SDE weeks from ~100+ weeks to duration to 18 weeks for any new global store arc lauch(2019 launch), Addressing customer pain points(manual setup, discoverability, code duplicity, programming requirement, elapsed time).",
+        "Tools & Technologies:  Java, Dagger, Guice, AWS(Amazon Web Services)",      
+      ],
+    },
+    {
       title: "Member Of Technical Staff",
       company_name: "Byjus-The Learning App",
       icon: byjus,
       iconBg: "#383E56",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - Sept 2023",
       source_code_link: "https://d857x1yne8b8d.cloudfront.net/production/monthly_progress_reports_v2/05-2023/98952346_1001556644.pdf",
       points: [
         "Led the development of a feature that involved data integration from multiple sources.",

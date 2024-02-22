@@ -26,19 +26,21 @@ const ExperienceCard = ({ experience }) => (
     <div>
       <h3 className="text-white text-[24px] font-bold">{ experience.title }</h3>
       <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>{ experience.company_name }</p>
-      <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(experience.source_code_link, "_blank")}
-              className='w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-                <h5 className="text-[13px] font-bold" style={{ color: '#0000FF'}}><i><b><u>Demo</u></b></i></h5>
-              {/* <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              /> */}
+        {experience.source_code_link && (
+            <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+                <div
+                    onClick={() => window.open(experience.source_code_link, "_blank")}
+                    className='w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                >
+                    <h5 className="text-[13px] font-bold" style={{ color: '#0000FF'}}><i><b><u>Demo</u></b></i></h5>
+                  {/* <img
+                      src={github}
+                      alt='source code'
+                      className='w-1/2 h-1/2 object-contain'
+                  /> */}
+                </div>
             </div>
-          </div>
+        )}
     </div>
     <ul className="mt-5 list-disc ml-5 space-y-2">
       { experience.points.map((point, index) => (
